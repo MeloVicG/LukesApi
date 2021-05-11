@@ -6,7 +6,7 @@ import '../static/style.css'
 
 //practice material-UI stuff
 // import { AccessAlarm, ThreeDRotation } from '@material-ui/icons';
-import Button from '@material-ui/core/Button'
+// import Button from '@material-ui/core/Button'
 // import { Paper, Card } from '@material-ui/core';
 // import TextField from '@material-ui/core/Checkbox'
 
@@ -364,18 +364,17 @@ const Form = (props) => {
                     </div>
                     <br />
 
-                    <Button
-                    variant="contained" color="secondary"
+                    <button
+                    // variant="contained" color="secondary"
                         // whileHover={{ scale: 1.5 }}
                         type='submit'
                         // style={{ width: "100px", height: "50px", marginBottom: "20px" }}
                     >Features
-                        </Button>
+                        </button>
                     {/* because its inside a form dont need onClick */}
                 </form>
             </div>
-
-            <div className="errorBox">
+b            <div className="errorBox">
                 {/* {
                     error ? displayError() : ""
                 } */}
